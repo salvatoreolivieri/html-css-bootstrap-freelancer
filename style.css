@@ -1,0 +1,45 @@
+.debug{
+  background-color: rgb(0, 0, 0, 0.4);
+  border: 1px solid black;
+  height: 100px;
+}
+
+.box-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 
+Main 
+*/
+
+.hero-section{
+  border: 1px solid black;
+  height: 500px;
+}
+
+.about,
+.hero-section{
+  background-color: #3BBB9C;
+}
+
+.porftolio,
+.contact-me{
+  background-color: white;
+}
+
+
+/* 
+Footer 
+*/
+
+.top-footer{
+  background-color: #3A546D;
+}
+
+header,
+.bottom-footer{
+  background-color: #2C3E50;
+}
