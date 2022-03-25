@@ -11,6 +11,10 @@
 }
 
 
+section{
+  margin-top: 20px;
+}
+
 /* 
 Main 
 */
@@ -25,7 +29,7 @@ Main
   background-color: #3BBB9C;
 }
 
-.porftolio,
+.portfolio,
 .contact-me{
   background-color: white;
 }
