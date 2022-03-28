@@ -110,9 +110,10 @@ i, p{
 }
 
 
-.sc-card{
-  /* height: 200px; */
+.padding-colonna{
+  padding: 12px 12px;
 }
+
 
 .sc-card img{
   width: 100%;
@@ -124,6 +125,59 @@ i, p{
   width: 60%;
   margin: 0 auto;
 }
+
+.about{
+  color: white;
+}
+
+.button-download-container{
+  padding: 20px;
+}
+
+.hover-green,
+.hover-button-green{
+  background-color: #3BBB9C;
+}
+
+.hover-green:hover{
+  background-color: white;
+  color: black;
+}
+
+.hover-button-green{
+  border-color: #3BBB9C;
+}
+
+.hover-button-green:hover {
+  background-color: #1E836C;
+  border-color: #1E836C;
+}
+
+.input-style{
+  border-bottom: 1px solid lightgrey;
+}
+
+.no-outline{
+  padding: 15px 0px;
+
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.no-outline:focus{
+  outline: none;
+}
+
+input.placeholder{
+  color: black;
+}
+
+.super-padding{
+  padding-bottom: 80px;
+}
+
 
 
 
