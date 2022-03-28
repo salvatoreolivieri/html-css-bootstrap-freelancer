@@ -1,7 +1,6 @@
 .debug{
   background-color: rgb(0, 0, 0, 0.4);
   border: 1px solid black;
-  height: 100px;
 }
 
 .box-center{
@@ -10,33 +9,63 @@
   align-items: center;
 }
 
-
-section{
-  margin-top: 20px;
+.row{
+  height: 100%;
 }
 
+section{
+  padding: 50px 0;
+}
+
+
+
 /* 
-Main 
+  HEADER 
+*/
+
+
+nav{
+  height: 100%;
+}
+
+
+
+
+
+
+/* 
+  MAIN 
 */
 
 .hero-section{
-  border: 1px solid black;
   height: 500px;
 }
 
-.about,
+#about,
 .hero-section{
   background-color: #3BBB9C;
 }
 
-.portfolio,
-.contact-me{
+#portfolio,
+#contact-me{
   background-color: white;
 }
 
 
+.sc-card{
+  height: 200px;
+}
+
+.sc-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+
 /* 
-Footer 
+  FOOTER 
 */
 
 .top-footer{
@@ -45,5 +74,6 @@ Footer
 
 header,
 .bottom-footer{
+  height: 80px;
   background-color: #2C3E50;
 }
