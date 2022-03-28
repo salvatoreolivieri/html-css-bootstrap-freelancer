@@ -27,13 +27,20 @@ li{
   margin-right: 20px;
 }
 
-a{
+a, h1{
   color: white;
   text-decoration: none;
 }
 
 a:hover{
   color: #3BBB9C;
+}
+
+hr{
+  display: inline-block;
+  color: white;
+  width: 15%;
+  height: 10px;
 }
 
 
@@ -59,6 +66,10 @@ nav{
   color: #3BBB9C;
 }
 
+h2{
+  font-size: calc(1.375rem + 1.5vw);
+  text-transform: uppercase;
+}
 
 
 
@@ -71,9 +82,22 @@ nav{
   height: 500px;
 }
 
-img{
-  width: 200px;
+.star-container{
+  line-height: 50px;
 }
+
+.hero-section img{
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+i, p{
+  color: white;
+  font-size: 20px;
+}
+
+
+
 
 #about,
 .hero-section{
@@ -87,7 +111,13 @@ img{
 
 
 .sc-card{
-  height: 200px;
+  /* height: 200px; */
+}
+
+.sc-card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .sc-container{
