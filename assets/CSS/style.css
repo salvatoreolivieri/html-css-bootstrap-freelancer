@@ -18,6 +18,25 @@ section{
 }
 
 
+.flex-row{
+  flex-direction: row;
+  justify-content: end;
+}
+
+li{
+  margin-right: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #3BBB9C;
+}
+
+
 
 /* 
   HEADER 
@@ -25,9 +44,20 @@ section{
 
 
 nav{
-  height: 100%;
+  height: 80px;
 }
 
+
+.logo{
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logo:hover{
+  color: #3BBB9C;
+}
 
 
 
@@ -39,6 +69,10 @@ nav{
 
 .hero-section{
   height: 500px;
+}
+
+img{
+  width: 200px;
 }
 
 #about,
@@ -72,7 +106,7 @@ nav{
   background-color: #3A546D;
 }
 
-header,
+/* header, */
 .bottom-footer{
   height: 80px;
   background-color: #2C3E50;
